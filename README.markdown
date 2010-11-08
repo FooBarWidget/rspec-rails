@@ -72,7 +72,10 @@ your preference to the Gemfile:
     gem "webrat"
     gem "capybara"
 
-Note that Capybara matchers are not available in view or helper specs.
+Notes:
+
+ * Capybara matchers are not available in view or helper specs.
+ * Webrat does not need to be configured, rspec-rails does this automatically.
 
 ## Living on edge
 

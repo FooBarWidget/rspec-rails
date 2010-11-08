@@ -53,7 +53,7 @@ module RSpec::Rails
 
       webrat do
         Webrat.configure do |config|
-          config.mode = :rack
+          config.mode = :rails
         end
       end
     end
