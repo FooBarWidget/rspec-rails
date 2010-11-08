@@ -59,5 +59,6 @@ module RSpec::Rails
     end
 
     RSpec.configure &include_self_when_dir_matches('spec','requests')
+    RSpec.configure &include_self_when_dir_matches('spec','integration')
   end
 end
